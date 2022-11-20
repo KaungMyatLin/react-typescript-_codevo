@@ -6,6 +6,7 @@ import { Status } from './components/advpropsTut/Status';
 import { Heading } from './components/advpropsTut/Heading'
 import { Oscar } from './components/advpropsTut/Oscar';
 import { Button } from './components/Button';
+import { Input } from './components/Input';
 
 function App() {
   const pName = {
@@ -38,6 +39,7 @@ function App() {
         <Heading>Oscar goes to Leo</Heading>
       </Oscar>
       <Button handleClick={(event) => {console.log("id")}} />
+      <Input value='' handleChange={event => console.log(event)} />
     </div>
   );
 }
