@@ -9,6 +9,9 @@ import { Button } from './components/eventpropsTut/Button';
 import { Input } from './components/eventpropsTut/Input';
 import { Container } from './components/stylepropsTut/Container';
 
+import { ThemeContextProvider } from './components/contextTut/ThemeContext'
+import { Box } from './components/contextTut/Box'
+
 function App() {
   const pName = {
     first: 'Bruce',
@@ -42,6 +45,9 @@ function App() {
       <Button propOnClick={(event) => {console.log(event)}} />
       <Input value='' handleChange={event => console.log(event)} />
       <Container styles={{border:'1px solid black', padding: '1rem'}} />
+      <ThemeContextProvider>
+        <Box />
+      </ThemeContextProvider>
     </div>
   );
 }
