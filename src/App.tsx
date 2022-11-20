@@ -2,9 +2,10 @@ import { Greet } from './components/basicpropsTut/Greet'
 import './App.css';
 import { Person } from './components/basicpropsTut/Person'
 import { PersonList } from './components/basicpropsTut/PersonList';
-import { Status } from './components/status';
-import { Heading } from './components/Heading'
-import { Oscar } from './components/oscar';
+import { Status } from './components/advpropsTut/Status';
+import { Heading } from './components/advpropsTut/Heading'
+import { Oscar } from './components/advpropsTut/Oscar';
+import { Button } from './components/Button';
 
 function App() {
   const pName = {
@@ -25,9 +26,10 @@ function App() {
       last: 'Diana'
     }
   ]
+
   return (
     <div className="App">
-      <Greet name='John' messageCount={20} isLoggedIn={false}/>
+      <Greet name='John' isLoggedIn={false}/>
       <Person name={pName} />
       <PersonList names={nameList} />
       <Status status='loading' />
@@ -35,6 +37,7 @@ function App() {
       <Oscar>
         <Heading>Oscar goes to Leo</Heading>
       </Oscar>
+      <Button handleClick={(event) => {console.log("id")}} />
     </div>
   );
 }
