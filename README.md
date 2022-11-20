@@ -3,8 +3,8 @@
 2.  tsx file warn you when you missed to supply a prop.
 3.  aPropType defined with composition of multiprops under a common prop-objname. aPropType={'nameobj'} has composition of two props; f and l.
 Note: {f:,l:} is supplied by you. aPropType={'nameobj'} is defined by you.
-4.  Arrof-eachobj is supplied by you. aPropType={'nameobj'[]} is defined by you. 
-6.  React.ReactNode for nodes of react to input as props.children.
-7.  optional props with ? on properties on propType types.
-8.  set optional props 'default' val with how 'setting default' on destructuring of prop obj.
-9.  
+4.  Arrof-eachobj is supplied by you. aPropType={'nameobj'[]} is defined by you.
+5.  React.ReactNode for nodes of react to input as props.children.
+6.  optional props with ? on properties on propType types.
+7.  set optional props 'default' val with how 'setting default' on destructuring of prop obj.
+8.  
