@@ -10,4 +10,6 @@ Note: {f:,l:} is supplied by you. aPropType={'nameobj'} is defined by you.
 8.  set union of types on status property of propType.
 9.  propOnClick is a property of type. propOnClick has function and param 'event'. That event must have type. The type is interface MouseEvent (@types/react) and its type is another interface HTMLButtonElement(@types/react-dom).
 10. stylePropType.
-11. 
+11. {value, handleChange}: InputProps.
+12. Person.types.tsx exporting PersonProps and PersonListProps.
+13. 

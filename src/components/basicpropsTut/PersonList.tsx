@@ -1,3 +1,4 @@
+import {PersonListProps} from './Person.types'
 export const PersonList = (props: PersonListProps) => {
     return (
         <div>
@@ -10,11 +11,4 @@ export const PersonList = (props: PersonListProps) => {
             }
         </div>
     )
-}
-
-type PersonListProps = {
-    names: {
-        first: string,
-        last: string
-    }[]
 }
