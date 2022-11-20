@@ -12,5 +12,5 @@ Note: {f:,l:} is supplied by you. aPropType={'nameobj'} is defined by you.
 10. stylePropType.
 11. {value, handleChange}: InputProps.
 12. Person.types.tsx exporting PersonProps and PersonListProps.
-13. setIsLoggedIn state is autoly type infered.
-14. 
+13. setIsLoggedIn state is infered as 'React.Dispatch<React.SetStateAction<boolean>>'.
+14. useState(null) is infered as 'React.Dispatch<React.SetStateAction<null>>. Use useState<AuthUser| null>(null).
