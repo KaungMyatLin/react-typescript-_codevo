@@ -1,6 +1,6 @@
 export const Container = (props: ContainerProps) => {
     return (
-        <div style={}>
+        <div style={props.styles}>
             Text go here.
         </div>
     )

@@ -7,6 +7,7 @@ import { Heading } from './components/advpropsTut/Heading'
 import { Oscar } from './components/advpropsTut/Oscar';
 import { Button } from './components/eventpropsTut/Button';
 import { Input } from './components/eventpropsTut/Input';
+import { Container } from './components/stylepropsTut/Container';
 
 function App() {
   const pName = {
@@ -40,6 +41,7 @@ function App() {
       </Oscar>
       <Button propOnClick={(event) => {console.log(event)}} />
       <Input value='' handleChange={event => console.log(event)} />
+      <Container styles={{border:'1px solid black', padding: '1rem'}} />
     </div>
   );
 }
