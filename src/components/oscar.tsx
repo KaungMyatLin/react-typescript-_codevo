@@ -1,5 +1,5 @@
 export const Oscar = (props: OscarProps) => {
-    return <div></div>
+    return <div>{props.children}</div>
 }
 
 type OscarProps = {
