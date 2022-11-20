@@ -14,3 +14,12 @@ Note: {f:,l:} is supplied by you. aPropType={'nameobj'} is defined by you.
 12. Person.types.tsx exporting PersonProps and PersonListProps.
 13. setIsLoggedIn state is infered as 'React.Dispatch<React.SetStateAction<boolean>>'.
 14. useState(null) is infered as 'React.Dispatch<React.SetStateAction<null>>. Use useState<AuthUser| null>(null).
+15. Type assertion allows you to set the type of a value and tell the compiler not to infer it. 
+interface Employee {
+    name: string;
+}
+let employee = <Employee> { };
+(or)
+{} as AuthUser in this codebase.
+16. useReducer, state: CounterState, action: CounterAction.
+17. 
