@@ -38,7 +38,7 @@ function App() {
       <Oscar>
         <Heading>Oscar goes to Leo</Heading>
       </Oscar>
-      <Button propOnClick={(event) => {console.log("id")}} />
+      <Button propOnClick={(event) => {console.log(event)}} />
       <Input value='' handleChange={event => console.log(event)} />
     </div>
   );

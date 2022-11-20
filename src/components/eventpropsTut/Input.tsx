@@ -7,7 +7,7 @@ export const Input = (props: InputProps) => {
 
 type InputProps = {
     value: string,
-    handleChange:  (event: React.ChangeEvent<HTMLInputElement>) => void
+    handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void
 }
 
 // you can't have another way of writing with removing 
