@@ -6,7 +6,7 @@ import { Status } from './components/advpropsTut/Status';
 import { Heading } from './components/advpropsTut/Heading'
 import { Oscar } from './components/advpropsTut/Oscar';
 import { Button } from './components/eventpropsTut/Button';
-import { Input } from './components/Input';
+import { Input } from './components/eventpropsTut/Input';
 
 function App() {
   const pName = {
