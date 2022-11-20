@@ -7,5 +7,6 @@ Note: {f:,l:} is supplied by you. aPropType={'nameobj'} is defined by you.
 5.  React.ReactNode for nodes of react to input as props.children.
 6.  set optional property by setting '?' value on propsType.
 7.  set 'fallback empty or numberdefault' aproperty on destructuring of props.
-8.  propOnClick is a property of type. propOnClick has function and param 'event'. That event must have type. The type is interface MouseEvent (@types/react) and its type is another interface HTMLButtonElement(@types/react-dom).
-9.  
+8.  set union of types on status property of propType.
+9.  propOnClick is a property of type. propOnClick has function and param 'event'. That event must have type. The type is interface MouseEvent (@types/react) and its type is another interface HTMLButtonElement(@types/react-dom).
+10. 
