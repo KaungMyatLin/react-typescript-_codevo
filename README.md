@@ -5,6 +5,7 @@
 Note: {f:,l:} is supplied by you. aPropType={'nameobj'} is defined by you.
 4.  Arrof-eachobj is supplied by you. aPropType={'nameobj'[]} is defined by you.
 5.  React.ReactNode for nodes of react to input as props.children.
-6.  optional props with ? on properties on propType types.
-7.  set optional props 'default' val with how 'setting default' on destructuring of prop obj.
-8.  interface is reacttype MouseEvent and elementtype is HTMLButtonElement.
+6.  set optional property by setting '?' value on propsType.
+7.  set 'fallback empty or numberdefault' aproperty on destructuring of props.
+8.  propOnClick is a property of type. propOnClick has function and param 'event'. That event must have type. The type is interface MouseEvent (@types/react) and its type is another interface HTMLButtonElement(@types/react-dom).
+9.  

@@ -5,7 +5,7 @@ import { PersonList } from './components/basicpropsTut/PersonList';
 import { Status } from './components/advpropsTut/Status';
 import { Heading } from './components/advpropsTut/Heading'
 import { Oscar } from './components/advpropsTut/Oscar';
-import { Button } from './components/Button';
+import { Button } from './components/eventpropsTut/Button';
 import { Input } from './components/Input';
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
       <Oscar>
         <Heading>Oscar goes to Leo</Heading>
       </Oscar>
-      <Button handleClick={(event) => {console.log("id")}} />
+      <Button propOnClick={(event) => {console.log("id")}} />
       <Input value='' handleChange={event => console.log(event)} />
     </div>
   );
