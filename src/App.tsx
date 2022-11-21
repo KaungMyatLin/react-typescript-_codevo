@@ -11,6 +11,7 @@ import { Container } from './components/stylepropsTut/Container';
 
 import { ThemeContextProvider } from './components/contextTut/ThemeContext'
 import { Box } from './components/contextTut/Box'
+import { Counter } from './components/classCmpntTut/Counter';
 
 function App() {
   const pName = {
@@ -48,6 +49,7 @@ function App() {
       <ThemeContextProvider>
         <Box />
       </ThemeContextProvider>
+      <Counter message='count value is ' />
     </div>
   );
 }
