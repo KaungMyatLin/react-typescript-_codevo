@@ -24,4 +24,5 @@ let employee = <Employee> { };
 16. useReducer, state: CounterState, action: CounterAction.
 17. contextTut.
 18. non-null assertion !. (e.g., node.parent"!".dosth).
-19. 
+19. DomRef (Ref.current holding Dom properties) & MutableRef (Ref.current holding identity) (mutating but useEffect clears it) by useRef.
+20. 
