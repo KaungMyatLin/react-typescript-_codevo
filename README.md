@@ -23,4 +23,5 @@ let employee = <Employee> { };
 {} as AuthUser in this codebase.
 16. useReducer, state: CounterState, action: CounterAction.
 17. contextTut.
-18. 
+18. non-null assertion !. (e.g., node.parent"!".dosth).
+19. 
