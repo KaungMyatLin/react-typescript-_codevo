@@ -9,7 +9,7 @@ import { Button } from './components/eventpropsTut/onClickOfbtnfromcmpntProps';
 import { Input } from './components/eventpropsTut/onChngeOfinpfromcmpntProps';
 import { Container } from './components/stylepropsTut/Container';
 
-import { ThemeContextProvider } from './components/contextTut/ThemeContext'
+import { ThemeContextProvider } from './components/contextTut/reactNodeforchildrenprops'
 import { Box } from './components/contextTut/Box'
 import { Counter } from './components/classCmpntTut/propsxstateofclassCmpnt';
 
