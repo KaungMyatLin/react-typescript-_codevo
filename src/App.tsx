@@ -5,8 +5,8 @@ import { PersonList } from './components/basicpropsTut/PersonList';
 import { Status } from './components/advpropsTut/Status';
 import { Heading } from './components/advpropsTut/Heading'
 import { Oscar } from './components/advpropsTut/Oscar';
-import { Button } from './components/eventpropsTut/Button';
-import { Input } from './components/eventpropsTut/Input';
+import { Button } from './components/eventpropsTut/onClickOfbtnfromcmpntProps';
+import { Input } from './components/eventpropsTut/onChngeOfinpfromcmpntProps';
 import { Container } from './components/stylepropsTut/Container';
 
 import { ThemeContextProvider } from './components/contextTut/ThemeContext'
