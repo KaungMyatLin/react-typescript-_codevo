@@ -33,14 +33,14 @@ function reducer (state: CounterState, action: CounterAction) {
             return state
     }
 }
-type CounterProps = {
-    reducer: (state: CounterState, action: CounterAction) => CounterState,
-    initialState: {count: number} //must not use obj type.
-}
+// type CounterProps = {
+//     reducer: (state: CounterState, action: CounterAction) => CounterState,
+//     initialState: {count: number} //must not use obj type.
+// }
 
-export const Counter = (props: CounterProps) => {
-    // const [state, dispatch] = useReducer(reducer, initialState)
-    const [state, dispatch] = useReducer(props.reducer, props.initialState) //initialState is important.
+export const Counter = () => {
+    const [state, dispatch] = useReducer(reducer, initialState)
+    // props: CounterProps, const [state, dispatch] = useReducer(props.reducer, props.initialState) //initialState is important.
     return (
         <>
             Count: {state.count}
