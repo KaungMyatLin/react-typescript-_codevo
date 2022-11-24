@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { ThemeContext } from './reactNodeforchildrenprops'
+import { ThemeContext } from './reactNodeforchildrenpropsfromcmpntProps'
 
 export const Box = () => {
     const theme = useContext(ThemeContext)

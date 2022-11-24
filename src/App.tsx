@@ -7,9 +7,9 @@ import { Heading } from './components/advpropsTut/Heading'
 import { Oscar } from './components/advpropsTut/Oscar';
 import { Button } from './components/eventpropsTut/onClickOfbtnfromcmpntProps';
 import { Input } from './components/eventpropsTut/onChngeOfinpfromcmpntProps';
-import { Container } from './components/stylepropsTut/Container';
+import { Container } from './components/stylepropsTut/cssPropertiesfordivstylesfromcmpntProps';
 
-import { ThemeContextProvider } from './components/contextTut/reactNodeforchildrenprops'
+import { ThemeContextProvider } from './components/contextTut/reactNodeforchildrenpropsfromcmpntProps'
 import { Box } from './components/contextTut/Box'
 import { Counter } from './components/classCmpntTut/propsxstateofclassCmpnt';
 
