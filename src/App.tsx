@@ -11,7 +11,7 @@ import { Container } from './components/stylepropsTut/Container';
 
 import { ThemeContextProvider } from './components/contextTut/ThemeContext'
 import { Box } from './components/contextTut/Box'
-import { Counter } from './components/classCmpntTut/Counter';
+import { Counter } from './components/classCmpntTut/propsxstateofclassCmpnt';
 
 function App() {
   const pName = {
