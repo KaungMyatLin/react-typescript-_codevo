@@ -1,7 +1,7 @@
 import { Greet } from './components/basicpropsTut/multipropsfromcmpnt'
 import './App.css';
 import { Person } from './components/basicpropsTut/multipropsnestedasone/Person'
-import { PersonList } from './components/basicpropsTut/PersonList';
+import { PersonList } from './components/basicpropsTut/multipropsnestedasone/PersonList';
 import { Status } from './components/advpropsTut/Status';
 import { Heading } from './components/advpropsTut/Heading'
 import { Oscar } from './components/advpropsTut/Oscar';
